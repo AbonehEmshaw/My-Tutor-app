@@ -1,0 +1,18 @@
+table {
+    margin-left: 10%;
+    width: 80%;
+    align-content: center;
+  }
+
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+  .mat-header-cell{
+
+   color: black;
+  font-weight: bold;
+  }
+
+  .main-div{
+    height: 100vh;
+}

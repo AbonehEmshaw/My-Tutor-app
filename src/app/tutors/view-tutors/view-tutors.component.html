@@ -1,0 +1,22 @@
+<div class="main-div">
+  <mat-card class="tutorDetails">
+    <mat-card-title class="title">
+        <p>Tutor Information</p>
+    </mat-card-title>
+    <mat-card-content>
+      <mat-list>
+        <mat-list-item> firstname:  {{ firstname }} </mat-list-item>
+        <mat-list-item> lastname: {{ lastname }} </mat-list-item>
+        <mat-list-item> gender: {{ gender }} </mat-list-item>
+        <mat-list-item> age: {{ age }} </mat-list-item>
+        <mat-list-item> education level: {{ educationlevel }} </mat-list-item>
+        <mat-list-item> subject: {{ mainsubject }} </mat-list-item>
+        <mat-list-item> Language: {{ language }} </mat-list-item>
+       </mat-list>
+    </mat-card-content>
+    <mat-card-actions align="end">
+      <button mat-raised-button color="accent" [routerLink]="['/parent']" >Back</button>
+    </mat-card-actions>
+</mat-card>
+
+</div>
